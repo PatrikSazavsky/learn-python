@@ -1,2 +1,3 @@
-for i in range(3):
-    print("Meow") 
+cislo = 1
+while cislo <= 5:
+    cislo = cislo + 1

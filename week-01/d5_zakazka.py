@@ -15,8 +15,9 @@ def celkem(metry, cena_za_metr, hodiny, sazba):
 
 def s_dph(castka):
     return castka * 1.21
+castka = float(input("Kolik je částka? "))
 
 print(f"Celkem za materiál: {material(metry, cena_za_metr)} Kč")
 print(f"Kolik stojí práce: {prace(hodiny, sazba)} Kč ")
 print(f"Kolik je to celkem Kč: {celkem(metry, cena_za_metr, hodiny, sazba)} Kč" )
-
+print(f"Celkem s dph: {s_dph(castka= } Kč")

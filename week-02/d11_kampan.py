@@ -1,6 +1,6 @@
 def nacti_cislo(otazka):
     return float(input(otazka).replace("," , "."))
-
+#Počítá kolik kliků je za den 
 def kliky_za_den(rozpocet, cena_za_klik):
     return rozpocet/cena_za_klik
 
@@ -35,6 +35,6 @@ print(f"Kliků za den: {kliky}" )
 print(f"Název kampaně: {nazev}" )
 print(f"Kolik máte rozpočet: {budget} Kč")
 print(f"Kolik dni pojede kampaň: {dni}" )
-
+#Je zde + 1 aby to pustilo počet dnů který se zaadává v otázce
 for dny in range(1, dni + 1):
     print(f" Den číslo {dny}, Rozpočet: {dny * budget}, {kliky * dny} ")
